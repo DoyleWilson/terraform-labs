@@ -19,11 +19,11 @@ provider "aws" {
 
 provider "github" {
   # Configuration options
-  token = "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"
+  token = "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"
 }
 
 resource "github_repository" "terraform-labs" {
-  name       = "terraform-labs"
+  name       = "terraform-labss"
   visibility = "private"
 }
 
